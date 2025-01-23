@@ -11,7 +11,8 @@ public class Detector {
 
     public static void main(String[] args) {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        Mat image = Imgcodecs.imread("imagens/face.jpg");
+        //colocar nome da imagem.jpg
+        Mat image = Imgcodecs.imread("imagens/faces.jpg");
 
         detectarESalvar(image);
     }
